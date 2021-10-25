@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#SBATCH --mem=16G
+#SBATCH --time=1-23:59:59
+#SBATCH --gres gpu:Tesla-V100-32GB:1
+
+time python3 t2t.py --job $1 --lang $2 --mission $3 --mark $4 --gaussian $5 --orz noisy

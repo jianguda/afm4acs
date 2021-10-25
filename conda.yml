@@ -1,0 +1,30 @@
+name: exp
+channels:
+  - defaults
+dependencies:
+  - cudatoolkit=11.3
+  - python=3.7  # 3.8 3.9
+  - pip=21.1  # 21.2
+  - nomkl=3.0  # for AMD
+#  - mkl=2021.3  # for Intel
+  - pip:
+    - absl-py==0.13.0
+    - attrs==21.2.0
+    - chardet==4.0.0
+    - datasets==1.11.0
+    - pandas==1.2.5
+    - rouge-score==0.0.4
+    - torch==1.7.1  # 1.8.1
+    - tqdm==4.61.2
+    - transformers==4.8.2  # 4.9.2 4.10.3
+    - git+https://github.com/Maluuba/nlg-eval.git@master
+
+
+# [ADD]
+# conda env create -f conda.yml
+# [CHECK]
+# conda env list
+# [REMOVE]
+# conda env remove --name exp
+# [UPDATE]
+# conda env update --name exp --file conda.yml --prune

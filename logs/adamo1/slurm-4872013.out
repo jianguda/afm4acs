@@ -1,0 +1,13 @@
+2021-10-24 02:38:12.689077: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+WARNING (theano.tensor.blas): We did not find a dynamic library in the library_dir of the library we use for blas. If you use ATLAS, make sure to compile it with dynamics library.
+Namespace(decoder='gpt2', dryrun=False, encoder='codebert', fastrun=False, gaussian=0.0, highrun=False, impulsive=0.0, job='cp-da-mlm', lang='python', mark='+', mission='evaluate', orz='adamo', power=1, wholerun=False)
+****************
+# run evaluation on the dumped model
++++++++++ model inferring +++++++++
+['cross-correlation function for 1d parameters x .', 'adds pootle directories to the site settings .', 'returns the returner modules .', 'rgb to rgb .', 'a wrapper around pprint .']
+['crosscovariance for 1d parameters x .', 'add locale paths to settings for comprehensive theming .', 'returns the serializers modules .', 'rgb to short .', 'a wrapper around pprint .']
+c_bleu = 26.47 | s_bleu = 33.83 | meteor = 21.55 | rouge = 40.99
+
+real	94m44.668s
+user	56m21.338s
+sys	32m44.837s

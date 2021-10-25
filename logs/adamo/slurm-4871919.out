@@ -1,0 +1,13 @@
+2021-10-24 00:38:05.079219: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+WARNING (theano.tensor.blas): We did not find a dynamic library in the library_dir of the library we use for blas. If you use ATLAS, make sure to compile it with dynamics library.
+Namespace(decoder='gpt2', dryrun=False, encoder='codebert', fastrun=False, gaussian=0.0, highrun=False, impulsive=0.0, job='basic4basts', lang='python', mark='@', mission='evaluate', orz='adamo', power=1, wholerun=False)
+****************
+# run evaluation on the dumped model
++++++++++ model inferring +++++++++
+['convert sru xml data to a list of sru strings .', 'download daily screenshots from a given url .', 'get video url from video id', 'delete a lambda function .', 'find bisect .']
+['str - > list convert xml to url list . from biligrab .', 'downloads dailymotion videos by url .', 'splicing urls according to video id to get video details', 'deletes the specified cloud function .', 'bisects an interval and updates to satisfy opposite slope conditions .']
+c_bleu = 5.19 | s_bleu = 16.46 | meteor = 12.51 | rouge = 27.31
+
+real	84m23.832s
+user	54m46.639s
+sys	29m44.007s

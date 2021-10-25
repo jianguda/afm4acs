@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#SBATCH --mem=48G
+#SBATCH --time=1-23:59:59
+
+time python3 t2t.py --mission review
